@@ -121,6 +121,22 @@ Para poder iniciar sesión serán necesarias las siguientes credenciales.
   <img src="./docs/img/ferremas_gif.gif" alt="cart interaction" width="750">
 </div>
 
+## Ahora instalamos las librerias para Ejecutar las pruebas unitarias.
+
+```bash
+npm install --save-dev babel-jest @babel/preset-env @babel/preset-react
+```
+```
+npm install --save-dev jest-environment-jsdom
+```
+Para Ejecutarlas:
+```bash
+cd src/__tests__
+```
+```bash
+npx jest
+```
+
 ## Referencias
 
 - Imagen principal creada con MockupBro.
